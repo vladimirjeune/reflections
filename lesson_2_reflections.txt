@@ -1,0 +1,19 @@
+1.) What happens when you initialize a repository? Why do you need to do it?
+     When you initialize a repository you create a .git folder that holds the
+     metadata about your git repo.  This is necessary so that you can have all
+     the information that you get when you run git log/status/etc...  It is
+     also probably needed for showing the correct file state when you change
+     from one commit to a previous one.
+
+ 2.) How is the staging area different from the working directory and the 
+ 	 repository? What value do you think it offers?
+ 	  The working directory is really just the directory on your computer.
+ 	  Though the the contents that you asked not to see may not appear.  
+ 	  The staging directory is where you will put things that you want in 
+ 	  your next commit.  This will be a subset of the working directory 
+ 	  with files of your choosing present.  This allows you to put files 
+ 	  together in commits that are idealogically similar.  This will make it
+ 	  easier to look through your commits when you do git log.
+
+
+
