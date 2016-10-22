@@ -15,5 +15,24 @@
  	  together in commits that are idealogically similar.  This will make it
  	  easier to look through your commits when you do git log.
 
+3.)  How can you use the staging area to make sure you have one commit per 
+     logical change?
+      The Staging Area acts as a place to put stuff that you modified that
+      you want to put in a logical commit.  When you have committed what is
+      there you can Add more things to the Staging Area if there is more 
+      from the Working Directory you want to commit as another logical change.
+
+4.) What are some situations when branches would be helpful in keeping your 
+	history organized? How would branches help?
+     Branches would be good for refactorings, or exploratory changes to code
+     that you are not sure that you want to add to the master code.
+     Branches help in that by by allowing you to diverge from the master
+     code and not lose the working code if you need to quickly go back
+     to a working state.
+
+5.) 
+
+
+
 
 
