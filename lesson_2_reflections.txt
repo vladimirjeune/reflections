@@ -30,7 +30,32 @@
      code and not lose the working code if you need to quickly go back
      to a working state.
 
-5.) 
+5.) How do the diagrams help you visualize the branch structure?
+	 The diagrams along with the ids and names help you to know what your
+	 tree looks like.  That way you can know what you were doing where and
+	 if the commits you want are in the branch you are now on.
+
+6.) What is the result of merging two branches together? Why do we represent 
+    it in the diagram the way we do? 
+     Merging 2 branches together makes a new commit that is a union of the two
+     branch tips and their common parent.  If the branch has not really
+     split off from master's original location, then it is just fast forwarded
+     to the new position.  The branching in the diagram matches the branching
+     in the file system.
+
+ 7.) What are the pros and cons of Git’s automatic merging vs. always doing 
+     merges manually?
+      The automatic merging using both ends of the branches and the common
+      ancestor is great and takes away a lot of thinking that would have to go
+      into merging.  However, when there is a conflict in particular files you
+      have to merge manually.  This is actually good since you probably 
+      modified the same code as another person and have to hatch out among
+      yourselves what the correct course of action is.  There is no way the
+      computer could do it since it would not know what the overall intention
+      of the files under management are.
+
+8.) 
+
 
 
 
