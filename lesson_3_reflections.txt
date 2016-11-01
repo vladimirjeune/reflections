@@ -4,4 +4,14 @@
      gives you somewhere everyone can get to and you have a backup of
      your project.  So if your computer has a mishap you will not 
      lose data.
+
+ 2.) Why might you want to always pull changes manually rather than having Git 
+     automatically stay up-to-date with your remote repository?
+      You could introduce changes that are from another developer.  But, they 
+      are not compatible with what you have on your machine.  It is better to 
+      pull when you are ready.  Maybe you have all the things you want in your
+      code committed so that if you accidentally overwrite something you can 
+      return to an unmodified state.
+
+ 3.) 
      
