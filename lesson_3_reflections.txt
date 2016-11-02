@@ -13,5 +13,17 @@
       code committed so that if you accidentally overwrite something you can 
       return to an unmodified state.
 
- 3.) 
+ 3.) Describe the differences between forks, clones, and branches. When would 
+     you use one instead of another?
+      A Branch is something that happens on your computer.  You create a 
+      different path for new commits and you name it for future reference.
+      A Clone is when you copy a project and all it's history from GitHub, or
+      another directory.
+      A Fork is a Clone on GitHub of someone else's project that contains
+      references to the original project for attribution.  After you've 
+      created your fork you can clone it and work on it without interacting
+      with or bothering the creator.  At least until you want to contribute
+      to the project.
+
+4.)  
      
