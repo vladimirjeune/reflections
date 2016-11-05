@@ -25,5 +25,15 @@
       with or bothering the creator.  At least until you want to contribute
       to the project.
 
-4.)  
+4.)  What is the benefit of having a copy of the last known state of the 
+     remote stored locally?
+      So I am working with 1 consistent state of the repository.  If I had to
+      download the remote branch I may have a problem if I am not somewhere I
+      have internet access.  This way the next time I have internet I can do
+      a FETCH->MERGE, or just a PULL OM to merge all the changes since I left.
+
+      If I didn't have all the remote branches I would not have a proper 
+      snapshot of the whole project at that particular point in time.
+
+
      
