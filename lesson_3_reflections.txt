@@ -35,7 +35,18 @@
       If I didn't have all the remote branches I would not have a proper 
       snapshot of the whole project at that particular point in time.
 
-5.)  
+5.)  How would you collaborate without using Git or GitHub? What would be 
+     easier, and what would be harder?
+      Without GitHub, collaborating would have to be done by email.  This 
+      could be done, but, it would not be located in one location.  Having
+      a central location that just has to do with the project that you are 
+      working on makes it a lot more convenient.  All that you are doing 
+      concerning the state of the project is on GitHub.  No searching around
+      for emails from different people.
+
+6.)  
+
+
 
 
      
