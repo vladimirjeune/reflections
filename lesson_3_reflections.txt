@@ -44,7 +44,19 @@
       concerning the state of the project is on GitHub.  No searching around
       for emails from different people.
 
-6.)  
+6.)  When would you want to make changes in a separate branch rather than 
+     directly in master? What benefits does each approach have?
+      Dealing directly with Master is definitely easier to deal with.  
+      However, the benefits of using separate branches is that you can 
+      have your Master branch be your functional branch.  You can always
+      have that branch be presentable.  While you can do any updates, fixes,
+      or experiments on other branches you create.  When you think they are 
+      ready for prime time, or review; you can push them to GitHub so others
+      can agree to finally merge your proposed changes into the functional 
+      branch (Master).
+
+7.)  
+
 
 
 
